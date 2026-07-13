@@ -44,7 +44,12 @@ transition:.3s;
 nav a:hover{
 color:yellow;
 }
-
+.menu-toggle{
+display:none;
+font-size:32px;
+color:white;
+cursor:pointer;
+}
 .hero{
 height:90vh;
 background: none;
