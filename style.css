@@ -527,3 +527,42 @@ font-size:28px;
 }
 
 }
+/* ========= MOBILE MENU ========= */
+
+.menu-toggle{
+display:none;
+font-size:32px;
+color:white;
+cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+position:absolute;
+top:22px;
+right:20px;
+z-index:1001;
+}
+
+nav{
+display:none;
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+
+nav.active{
+display:flex;
+flex-direction:column;
+background:#b30000;
+padding:15px 0;
+}
+
+nav a{
+margin:12px 0;
+display:block;
+}
+
+}

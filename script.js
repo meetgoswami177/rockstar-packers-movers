@@ -47,3 +47,11 @@ galleryImages.forEach((img) => {
 lightbox.addEventListener("click", () => {
     lightbox.style.display = "none";
 });
+// ================= MOBILE MENU =================
+
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
