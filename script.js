@@ -37,16 +37,20 @@ const galleryImages = document.querySelectorAll(".gallery-box img");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 
-galleryImages.forEach((img) => {
-    img.addEventListener("click", () => {
-        lightbox.style.display = "flex";
-        lightboxImg.src = img.src;
+if (lightbox && lightboxImg) {
+    galleryImages.forEach((img) => {
+        img.addEventListener("click", () => {
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+        });
     });
-});
+}
 
-lightbox.addEventListener("click", () => {
-    lightbox.style.display = "none";
-});
+if (lightbox) {
+    lightbox.addEventListener("click", () => {
+        lightbox.style.display = "none";
+    });
+}
 // ================= MOBILE MENU =================
 
 const menuToggle = document.querySelector(".menu-toggle");
