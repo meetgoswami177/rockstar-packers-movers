@@ -542,22 +542,26 @@ cursor:pointer;
 }
 
 @media (max-width:768px){
+
 header{
 display:flex;
+flex-direction:row;
 justify-content:space-between;
 align-items:center;
-padding:8px 15px;
-min-height:70px;
+padding:10px 15px;
+text-align:left;
 }
 
 .logo h2{
 font-size:24px;
+margin:0;
 }
 
 .logo p{
-font-size:12px;
+font-size:11px;
 margin-top:2px;
 }
+
 .menu-toggle{
 display:block;
 position:absolute;
@@ -571,18 +575,18 @@ nav{
 display:none;
 width:100%;
 text-align:center;
-margin-top:20px;
+margin-top:15px;
 }
 
 nav.active{
 display:flex;
 flex-direction:column;
 background:#b30000;
-padding:15px 0;
+padding:10px 0;
 }
 
 nav a{
-margin:12px 0;
+margin:10px 0;
 display:block;
 }
 
