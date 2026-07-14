@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meetgoswami177.github.io/rockstar-packers-movers/sitemap.xml
