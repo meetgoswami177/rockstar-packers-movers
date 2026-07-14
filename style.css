@@ -498,3 +498,71 @@ width:220px;
 text-align:center;
 }
 }
+/* ===== SERVICE AREAS ===== */
+
+.areas{
+padding:80px 8%;
+background:#f8f8f8;
+text-align:center;
+}
+
+.areas h2{
+font-size:40px;
+color:#b30000;
+margin-bottom:20px;
+}
+
+.areas p{
+font-size:18px;
+max-width:900px;
+margin:0 auto 35px;
+line-height:1.8;
+color:#555;
+}
+
+.area-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.area-box span{
+background:#ffffff;
+padding:12px 18px;
+border-radius:30px;
+font-size:16px;
+font-weight:bold;
+color:#003399;
+box-shadow:0 4px 10px rgba(0,0,0,.12);
+transition:.3s;
+cursor:default;
+}
+
+.area-box span:hover{
+background:#b30000;
+color:#fff;
+transform:translateY(-4px);
+}
+
+@media (max-width:768px){
+
+.areas{
+padding:60px 20px;
+}
+
+.areas h2{
+font-size:28px;
+}
+
+.areas p{
+font-size:16px;
+}
+
+.area-box span{
+width:100%;
+max-width:330px;
+font-size:15px;
+}
+
+}
